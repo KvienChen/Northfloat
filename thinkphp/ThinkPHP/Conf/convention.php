@@ -44,7 +44,7 @@ return  array(
     'DEFAULT_LANG'          =>  'zh-cn', // 默认语言
     'DEFAULT_THEME'         =>  '',	// 默认模板主题名称
     'DEFAULT_MODULE'        =>  'Home',  // 默认模块
-    'DEFAULT_CONTROLLER'    =>  'Northfloat', // 默认控制器名称
+    'DEFAULT_CONTROLLER'    =>  'Index', // 默认控制器名称
     'DEFAULT_ACTION'        =>  'index', // 默认操作名称
     'DEFAULT_CHARSET'       =>  'utf-8', // 默认输出编码
     'DEFAULT_TIMEZONE'      =>  'PRC',	// 默认时区
@@ -54,7 +54,7 @@ return  array(
 
     /* 数据库设置 */
     'DB_TYPE'               =>  'mysql',     // 数据库类型
-    'DB_HOST'               =>  '127.0.0.1', // 服务器地址
+    'DB_HOST'               =>  'localhost', // 服务器地址
     'DB_NAME'               =>  'rent',          // 数据库名
     'DB_USER'               =>  'root',      // 用户名
     'DB_PWD'                =>  'root',          // 密码
@@ -144,7 +144,7 @@ return  array(
     'URL_PARAMS_BIND_TYPE'  =>  0, // URL变量绑定的类型 0 按变量名绑定 1 按变量顺序绑定
     'URL_PARAMS_FILTER'     =>  false, // URL变量绑定过滤
     'URL_PARAMS_FILTER_TYPE'=>  '', // URL变量绑定过滤方法 如果为空 调用DEFAULT_FILTER
-    'URL_ROUTER_ON'         =>  false,   // 是否开启URL路由
+    'URL_ROUTER_ON'         =>  true,   // 是否开启URL路由
     'URL_ROUTE_RULES'       =>  array(), // 默认路由规则 针对模块
     'URL_MAP_RULES'         =>  array(), // URL映射定义规则
 
