@@ -1,8 +1,47 @@
 <?php
 namespace Home\Controller;
 use Think\Controller;
+
+/*   @   房源信息管理控制器
+    列表或添加页面样式示例  : views里面的 list.html  和 add.html   
+    大家写列表的时候注意样式  
+    该控制器的模块方法已列出   显示页面为方法名加 .html
+*/
+
 class IndexController extends Controller {
+    /**
+      *   显示主界面
+      **/
     public function index(){
-        $this->show('<style type="text/css">*{ padding: 0; margin: 0; } div{ padding: 4px 48px;} body{ background: #fff; font-family: "微软雅黑"; color: #333;font-size:24px} h1{ font-size: 100px; font-weight: normal; margin-bottom: 12px; } p{ line-height: 1.8em; font-size: 36px } a,a:hover{color:blue;}</style><div style="padding: 24px 48px;"> <h1>:)</h1><p>欢迎使用 <b>ThinkPHP</b>！</p><br/>版本 V{$Think.version}</div><script type="text/javascript" src="http://ad.topthink.com/Public/static/client.js"></script><thinkad id="ad_55e75dfae343f5a1"></thinkad><script type="text/javascript" src="http://tajs.qq.com/stats?sId=9347272" charset="UTF-8"></script>','utf-8');
+        $this->display();
+    }
+
+    /**
+      *   未审核房源信息
+      **/
+    public function unservice(){
+        echo '未审核房源信息';
+    }
+
+     /**
+      *   我审核的房源信息
+      **/
+    public function myservice(){
+        echo '我审核的房源信息';
+    }
+
+
+   
+     /**
+      *   登录  
+      **/
+    public function log(){
+    	$this->display('add');
+    }
+
+
+
+    public function phone(){
+    	$this->display('login');
     }
 }

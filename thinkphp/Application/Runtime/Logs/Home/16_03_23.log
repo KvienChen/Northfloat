@@ -1,0 +1,3340 @@
+[ 2016-03-23T09:59:33+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001854s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001888s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002035s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000774s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000903s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059710s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059855s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001201s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001288s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001670s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001793s ]
+
+[ 2016-03-23T10:00:18+08:00 ] 127.0.0.1 /index.php/Home/index/unservice.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003463s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001248s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001362s ]
+
+[ 2016-03-23T10:16:12+08:00 ] 127.0.0.1 /index.php/Home/person/loglog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001929s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001927s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002090s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003262s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003899s ]
+
+[ 2016-03-23T11:31:25+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001798s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002200s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002380s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000166s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000289s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055348s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055487s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001294s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001409s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001269s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001348s ]
+
+[ 2016-03-23T11:31:30+08:00 ] 127.0.0.1 /index.php/Home/person/loglog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002602s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'rent'
+
+[ 2016-03-23T11:33:26+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001518s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002169s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002511s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000171s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000311s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028102s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028286s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002267s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002412s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002701s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002854s ]
+
+[ 2016-03-23T11:33:28+08:00 ] 127.0.0.1 /index.php/Home/person/loglog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001528s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002028s ]
+SQL: SHOW COLUMNS FROM `log_message` [ RunTime:0.1122s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002012s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002359s ]
+
+[ 2016-03-23T11:34:37+08:00 ] 127.0.0.1 /index.php/Home/person/loglog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003469s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002466s ]
+SQL: SHOW COLUMNS FROM `log_message` [ RunTime:0.0426s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004873s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005064s ]
+
+[ 2016-03-23T11:37:44+08:00 ] 127.0.0.1 /index.php/Home/person/loglog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001872s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002989s ]
+SQL: SHOW COLUMNS FROM `log_message` [ RunTime:0.0419s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002081s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002242s ]
+
+[ 2016-03-23T11:37:46+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001169s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001979s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002287s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000155s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000295s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043137s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043303s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001895s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002116s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001529s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001715s ]
+
+[ 2016-03-23T11:37:47+08:00 ] 127.0.0.1 /index.php/Home/person/loglog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001619s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002190s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002365s ]
+SQL: SHOW COLUMNS FROM `log_message` [ RunTime:0.0449s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002060s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002301s ]
+
+[ 2016-03-23T11:55:57+08:00 ] 127.0.0.1 /index.php/Home/person/loglog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005529s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005693s ]
+SQL: SHOW COLUMNS FROM `log_message` [ RunTime:0.1720s ]
+ERR: Think\Model:log方法不存在！
+
+[ 2016-03-23T11:58:28+08:00 ] 127.0.0.1 /index.php/Home/person/loglog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001486s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002192s ]
+SQL: SHOW COLUMNS FROM `log_message` [ RunTime:0.0410s ]
+SQL: SELECT * FROM `log_message` WHERE ( admin_id='1' )  [ RunTime:0.0015s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001623s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001720s ]
+
+[ 2016-03-23T12:05:46+08:00 ] 127.0.0.1 /index.php/Home/person/loglog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001675s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004562s ]
+SQL: SHOW COLUMNS FROM `log_message` [ RunTime:0.0191s ]
+SQL: SELECT * FROM `log_message` WHERE ( admin_id='1' )  [ RunTime:0.0012s ]
+ERR: 模板不存在:./Application/Home/View/Person/loglog.html
+
+[ 2016-03-23T12:09:15+08:00 ] 127.0.0.1 /index.php/Home/person/loglog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002033s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002235s ]
+SQL: SHOW COLUMNS FROM `log_message` [ RunTime:0.0425s ]
+SQL: SELECT * FROM `log_message` WHERE ( admin_id='1' )  [ RunTime:0.0021s ]
+ERR: 模板不存在:./Application/Home/View/Person/loglog.html
+
+[ 2016-03-23T12:09:17+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001538s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001774s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000160s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000277s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045207s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045354s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001127s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001208s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001404s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001489s ]
+
+[ 2016-03-23T12:09:19+08:00 ] 127.0.0.1 /index.php/Home/person/loglog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001775s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002109s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002327s ]
+SQL: SHOW COLUMNS FROM `log_message` [ RunTime:0.0424s ]
+SQL: SELECT * FROM `log_message` WHERE ( admin_id='1' )  [ RunTime:0.0022s ]
+ERR: 模板不存在:./Application/Home/View/Person/loglog.html
+
+[ 2016-03-23T12:10:23+08:00 ] 127.0.0.1 /index.php/Home/person/loglog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001558s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003004s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003189s ]
+SQL: SHOW COLUMNS FROM `log_message` [ RunTime:0.0449s ]
+SQL: SELECT * FROM `log_message` WHERE ( admin_id='1' )  [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.044622s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.044855s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.066923s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067098s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001561s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001697s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002289s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002438s ]
+
+[ 2016-03-23T12:14:15+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001866s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002148s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002340s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000161s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000277s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053039s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053230s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001276s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001388s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001631s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001750s ]
+
+[ 2016-03-23T12:14:16+08:00 ] 127.0.0.1 /index.php/Home/person/loglog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002778s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002229s ]
+SQL: SHOW COLUMNS FROM `log_message` [ RunTime:0.0441s ]
+SQL: SELECT * FROM `log_message` WHERE ( admin_id='1' )  [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000144s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000334s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021691s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021886s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001314s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001452s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002393s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002550s ]
+
+[ 2016-03-23T12:14:57+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001452s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002197s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002377s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000176s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000326s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026321s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026487s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002770s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003867s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002383s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002559s ]
+
+[ 2016-03-23T12:14:58+08:00 ] 127.0.0.1 /index.php/Home/person/loglog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001694s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001855s ]
+SQL: SHOW COLUMNS FROM `log_message` [ RunTime:0.0420s ]
+SQL: SELECT * FROM `log_message` WHERE ( admin_id='1' )  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000136s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000324s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028880s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029081s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001833s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001983s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004139s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004291s ]
+
+[ 2016-03-23T12:15:20+08:00 ] 127.0.0.1 /index.php/Home/person/loglog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000309s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002027s ]
+SQL: SHOW COLUMNS FROM `log_message` [ RunTime:0.0408s ]
+SQL: SELECT * FROM `log_message` WHERE ( admin_id='1' )  [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000272s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020834s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020992s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001501s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001639s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006902s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007086s ]
+
+[ 2016-03-23T12:15:29+08:00 ] 127.0.0.1 /index.php/Home/Preson/loglog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001909s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001907s ]
+ERR: 无法加载控制器:Preson
+
+[ 2016-03-23T12:15:56+08:00 ] 127.0.0.1 /index.php/Home/person/loglog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000322s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003661s ]
+SQL: SHOW COLUMNS FROM `log_message` [ RunTime:0.0412s ]
+SQL: SELECT * FROM `log_message` WHERE ( admin_id='1' )  [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000726s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000989s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036393s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036584s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001413s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001562s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002050s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002201s ]
+
+[ 2016-03-23T12:16:00+08:00 ] 127.0.0.1 /index.php/Home/Person/loglog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008950s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003841s ]
+SQL: SHOW COLUMNS FROM `log_message` [ RunTime:0.0408s ]
+SQL: SELECT * FROM `log_message` WHERE ( admin_id='1' )  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000233s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015426s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015562s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001127s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001243s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001800s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001938s ]
+
+[ 2016-03-23T12:16:01+08:00 ] 127.0.0.1 /index.php/Home/Person/loglog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001922s ]
+SQL: SHOW COLUMNS FROM `log_message` [ RunTime:0.0401s ]
+SQL: SELECT * FROM `log_message` WHERE ( admin_id='1' )  [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000240s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016132s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016271s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001138s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001257s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001599s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001787s ]
+
+[ 2016-03-23T14:22:08+08:00 ] 127.0.0.1 /index.php/Home/person/loglog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001474s ]
+SQL: SHOW COLUMNS FROM `log_message` [ RunTime:0.0433s ]
+SQL: SELECT * FROM `log_message` inner join admin_user ON admin_user.U_id=log_message.admin_id  WHERE ( admin_id='1' )  [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000242s ]
+NOTIC: [8] Undefined variable: message C:\Users\Kvien Chen\Desktop\project\Northfloat\thinkphp\Application\Runtime\Cache\Home\ce0747f855bab768935bcd6ecd757815.php 第 42 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\Users\Kvien Chen\Desktop\project\Northfloat\thinkphp\Application\Runtime\Cache\Home\ce0747f855bab768935bcd6ecd757815.php 第 42 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052511s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052626s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001201s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001310s ]
+NOTIC: [8] Array to string conversion C:\Users\Kvien Chen\Desktop\project\Northfloat\thinkphp\ThinkPHP\Library\Think\View.class.php 第 91 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001466s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001568s ]
+
+[ 2016-03-23T14:22:14+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001412s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001895s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000473s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000654s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029078s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029245s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001178s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001287s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001545s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001664s ]
+
+[ 2016-03-23T14:22:16+08:00 ] 127.0.0.1 /index.php/Home/person/loglog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001788s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005144s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005695s ]
+SQL: SHOW COLUMNS FROM `log_message` [ RunTime:0.1051s ]
+SQL: SELECT * FROM `log_message` inner join admin_user ON admin_user.U_id=log_message.admin_id  WHERE ( admin_id='1' )  [ RunTime:0.0029s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000286s ]
+NOTIC: [8] Undefined variable: message C:\Users\Kvien Chen\Desktop\project\Northfloat\thinkphp\Application\Runtime\Cache\Home\ce0747f855bab768935bcd6ecd757815.php 第 42 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\Users\Kvien Chen\Desktop\project\Northfloat\thinkphp\Application\Runtime\Cache\Home\ce0747f855bab768935bcd6ecd757815.php 第 42 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022612s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022773s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001556s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001705s ]
+NOTIC: [8] Array to string conversion C:\Users\Kvien Chen\Desktop\project\Northfloat\thinkphp\ThinkPHP\Library\Think\View.class.php 第 91 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001918s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002107s ]
+
+[ 2016-03-23T14:22:50+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001220s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001794s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000425s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000588s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025696s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025877s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001296s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001423s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010861s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011173s ]
+
+[ 2016-03-23T14:22:52+08:00 ] 127.0.0.1 /index.php/Home/person/loglog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003983s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002113s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002288s ]
+SQL: SHOW COLUMNS FROM `log_message` [ RunTime:0.0400s ]
+SQL: SELECT * FROM `log_message` inner join admin_user ON admin_user.U_id=log_message.admin_id  WHERE ( admin_id='1' )  [ RunTime:0.0021s ]
+
+[ 2016-03-23T14:35:31+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001486s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001929s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002085s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000158s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000271s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059789s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059987s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001484s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001628s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001662s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001768s ]
+
+[ 2016-03-23T14:35:33+08:00 ] 127.0.0.1 /index.php/Home/person/loglog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005136s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002936s ]
+SQL: SHOW COLUMNS FROM `log_message` [ RunTime:0.0364s ]
+SQL: SELECT * FROM `log_message` inner join admin_user ON admin_user.U_id=log_message.admin_id  WHERE ( admin_id='1' )  [ RunTime:0.0023s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000286s ]
+NOTIC: [8] Undefined index: U_name C:\Users\Kvien Chen\Desktop\project\Northfloat\thinkphp\Application\Runtime\Cache\Home\ce0747f855bab768935bcd6ecd757815.php 第 43 行.
+NOTIC: [8] Undefined index: Logtime C:\Users\Kvien Chen\Desktop\project\Northfloat\thinkphp\Application\Runtime\Cache\Home\ce0747f855bab768935bcd6ecd757815.php 第 43 行.
+NOTIC: [8] Undefined index: Ipaddress C:\Users\Kvien Chen\Desktop\project\Northfloat\thinkphp\Application\Runtime\Cache\Home\ce0747f855bab768935bcd6ecd757815.php 第 43 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024713s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024859s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004092s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004288s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002436s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002588s ]
+
+[ 2016-03-23T14:36:39+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001804s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001798s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000171s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000313s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026749s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026921s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001276s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001386s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001642s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001754s ]
+
+[ 2016-03-23T14:36:40+08:00 ] 127.0.0.1 /index.php/Home/person/loglog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002216s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002441s ]
+SQL: SHOW COLUMNS FROM `log_message` [ RunTime:0.0419s ]
+SQL: SELECT * FROM `log_message` inner join admin_user ON admin_user.U_id=log_message.admin_id  WHERE ( admin_id='1' )  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000157s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000333s ]
+
+[ 2016-03-23T14:36:51+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000165s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001940s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001910s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002106s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000178s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000320s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023122s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023297s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002681s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002824s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001527s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001645s ]
+
+[ 2016-03-23T14:36:53+08:00 ] 127.0.0.1 /index.php/Home/person/loglog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004020s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004997s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005368s ]
+SQL: SHOW COLUMNS FROM `log_message` [ RunTime:0.0484s ]
+SQL: SELECT * FROM `log_message` inner join admin_user ON admin_user.U_id=log_message.admin_id  WHERE ( admin_id='1' )  [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000162s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000320s ]
+NOTIC: [8] Undefined index: U_name C:\Users\Kvien Chen\Desktop\project\Northfloat\thinkphp\Application\Runtime\Cache\Home\ce0747f855bab768935bcd6ecd757815.php 第 42 行.
+NOTIC: [8] Undefined index: Logtime C:\Users\Kvien Chen\Desktop\project\Northfloat\thinkphp\Application\Runtime\Cache\Home\ce0747f855bab768935bcd6ecd757815.php 第 42 行.
+NOTIC: [8] Undefined index: Ipaddress C:\Users\Kvien Chen\Desktop\project\Northfloat\thinkphp\Application\Runtime\Cache\Home\ce0747f855bab768935bcd6ecd757815.php 第 42 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022223s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022372s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001639s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001789s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002616s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002802s ]
+
+[ 2016-03-23T14:38:32+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003893s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001752s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001909s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000172s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000318s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027124s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027338s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002062s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002387s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002549s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002773s ]
+
+[ 2016-03-23T14:38:35+08:00 ] 127.0.0.1 /index.php/Home/person/loglog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001732s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003780s ]
+SQL: SHOW COLUMNS FROM `log_message` [ RunTime:0.0428s ]
+SQL: SELECT * FROM `log_message` inner join admin_user ON admin_user.U_id=log_message.admin_id  WHERE ( admin_id='1' )  [ RunTime:0.0023s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000291s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037152s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037323s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001605s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001814s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002328s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003203s ]
+
+[ 2016-03-23T14:38:59+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002441s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000173s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000316s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032160s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032323s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001699s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001834s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001912s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002068s ]
+
+[ 2016-03-23T14:39:00+08:00 ] 127.0.0.1 /index.php/Home/person/loglog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001541s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003545s ]
+SQL: SHOW COLUMNS FROM `log_message` [ RunTime:0.0371s ]
+SQL: SELECT * FROM `log_message` inner join admin_user ON admin_user.U_id=log_message.admin_id  WHERE ( admin_id='1' )  [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000270s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021930s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022090s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001488s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001638s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001962s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002114s ]
+
+[ 2016-03-23T14:39:13+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001473s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004059s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000180s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000347s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032994s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033167s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001242s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001354s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001402s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002238s ]
+
+[ 2016-03-23T14:39:15+08:00 ] 127.0.0.1 /index.php/Home/person/loglog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003917s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003567s ]
+SQL: SHOW COLUMNS FROM `log_message` [ RunTime:0.0416s ]
+SQL: SELECT * FROM `log_message` inner join admin_user ON admin_user.U_id=log_message.admin_id  WHERE ( admin_id='1' )  [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000274s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021627s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021787s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001406s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001546s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002249s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002460s ]
+
+[ 2016-03-23T14:40:31+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001738s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000250s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020078s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020230s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000955s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001038s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001226s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001329s ]
+
+[ 2016-03-23T14:40:33+08:00 ] 127.0.0.1 /index.php/Home/person/loglog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001473s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001890s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002074s ]
+SQL: SHOW COLUMNS FROM `log_message` [ RunTime:0.0298s ]
+SQL: SELECT * FROM `log_message` inner join admin_user ON admin_user.U_id=log_message.admin_id  WHERE ( admin_id='1' )  [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000150s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000335s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025945s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026288s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001800s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001941s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002484s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002779s ]
+
+[ 2016-03-23T14:41:11+08:00 ] 127.0.0.1 /index.php/Home/person/loglog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002680s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003598s ]
+SQL: SHOW COLUMNS FROM `log_message` [ RunTime:0.0280s ]
+SQL: SELECT * FROM `log_message` inner join admin_user ON admin_user.U_id=log_message.admin_id  WHERE ( admin_id='1' )  [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000222s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015550s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015681s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001033s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001144s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001423s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001526s ]
+
+[ 2016-03-23T14:43:08+08:00 ] 127.0.0.1 /index.php/Home/broker/mymes.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001929s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002153s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002335s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003317s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003541s ]
+
+[ 2016-03-23T14:46:08+08:00 ] 127.0.0.1 /index.php/Home/person/pwdchange.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002933s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002233s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001901s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002056s ]
+
+[ 2016-03-23T14:46:09+08:00 ] 127.0.0.1 /index.php/Home/person/loglog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000126s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003517s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002366s ]
+SQL: SHOW COLUMNS FROM `log_message` [ RunTime:0.0349s ]
+SQL: SELECT * FROM `log_message` inner join admin_user ON admin_user.U_id=log_message.admin_id  WHERE ( admin_id='1' )  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000258s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042338s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042492s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003260s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003382s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002260s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002381s ]
+
+[ 2016-03-23T15:00:44+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001676s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002737s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002941s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000162s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000279s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051103s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051242s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001008s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001086s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001360s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001457s ]
+
+[ 2016-03-23T15:00:46+08:00 ] 127.0.0.1 /index.php/Home/person/loglog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001740s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003202s ]
+SQL: SHOW COLUMNS FROM `log_message` [ RunTime:0.0986s ]
+SQL: SELECT * FROM `log_message` inner join admin_user ON admin_user.U_id=log_message.admin_id  WHERE ( admin_id='1' )  [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000300s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020878s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021052s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001524s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001685s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001809s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002037s ]
+
+[ 2016-03-23T15:02:40+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001210s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004793s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004986s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000140s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000264s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023425s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023562s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004140s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004369s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003615s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003739s ]
+
+[ 2016-03-23T15:02:41+08:00 ] 127.0.0.1 /index.php/Home/person/loglog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001725s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002655s ]
+SQL: SHOW COLUMNS FROM `log_message` [ RunTime:0.0396s ]
+SQL: SELECT * FROM `log_message` inner join admin_user ON admin_user.U_id=log_message.admin_id  WHERE ( admin_id='1' )  [ RunTime:0.0023s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000138s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000371s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036203s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036368s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003842s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005787s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001789s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001938s ]
+
+[ 2016-03-23T15:04:34+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001815s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001971s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000185s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000485s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029205s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029383s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001638s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001782s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002585s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004678s ]
+
+[ 2016-03-23T15:04:35+08:00 ] 127.0.0.1 /index.php/Home/person/loglog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002442s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002799s ]
+SQL: SHOW COLUMNS FROM `log_message` [ RunTime:0.0572s ]
+SQL: SELECT * FROM `log_message` inner join admin_user ON admin_user.U_id=log_message.admin_id  WHERE ( admin_id='1' )  [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000154s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000327s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025367s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025568s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001368s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001508s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002157s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002302s ]
+
+[ 2016-03-23T15:04:50+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001742s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001916s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000176s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000330s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033921s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034090s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001605s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001751s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002387s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002546s ]
+
+[ 2016-03-23T15:04:54+08:00 ] 127.0.0.1 /index.php/Home/person/loglog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001213s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001428s ]
+SQL: SHOW COLUMNS FROM `log_message` [ RunTime:0.0406s ]
+SQL: SELECT * FROM `log_message` inner join admin_user ON admin_user.U_id=log_message.admin_id  WHERE ( admin_id='1' )  [ RunTime:0.0023s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000179s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000379s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021465s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021670s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001414s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001557s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002038s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002185s ]
+
+[ 2016-03-23T15:05:18+08:00 ] 127.0.0.1 /index.php/Home/person/loglog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001197s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001610s ]
+SQL: SHOW COLUMNS FROM `log_message` [ RunTime:0.0776s ]
+SQL: SELECT * FROM `log_message` inner join admin_user ON admin_user.U_id=log_message.admin_id  WHERE ( admin_id='1' )  [ RunTime:0.0027s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000431s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000595s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043245s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043404s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001546s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001692s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002280s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002432s ]
+
+[ 2016-03-23T15:07:27+08:00 ] 127.0.0.1 /index.php/Home/person/loglog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001584s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002146s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002329s ]
+SQL: SHOW COLUMNS FROM `log_message` [ RunTime:0.0980s ]
+SQL: SELECT * FROM `log_message` inner join admin_user ON admin_user.U_id=log_message.admin_id  WHERE ( admin_id='1' )  [ RunTime:0.0026s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000270s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021122s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021274s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001209s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001306s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001399s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001513s ]
+
+[ 2016-03-23T15:08:07+08:00 ] 127.0.0.1 /index.php/Home/person/loglog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002035s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001950s ]
+SQL: SHOW COLUMNS FROM `log_message` [ RunTime:0.0412s ]
+SQL: SELECT * FROM `log_message` inner join admin_user ON admin_user.U_id=log_message.admin_id  WHERE ( admin_id='1' )  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000138s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000290s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021364s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021551s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002510s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002846s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002144s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002295s ]
+
+[ 2016-03-23T15:08:37+08:00 ] 127.0.0.1 /index.php/Home/person/loglog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001569s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001930s ]
+SQL: SHOW COLUMNS FROM `log_message` [ RunTime:0.0378s ]
+SQL: SELECT * FROM `log_message` inner join admin_user ON admin_user.U_id=log_message.admin_id  WHERE ( admin_id='1' )  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000238s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048113s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048240s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001077s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001170s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001868s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001985s ]
+
+[ 2016-03-23T15:09:14+08:00 ] 127.0.0.1 /index.php/Home/person/loglog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001627s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002055s ]
+SQL: SHOW COLUMNS FROM `log_message` [ RunTime:0.0336s ]
+SQL: SELECT * FROM `log_message` inner join admin_user ON admin_user.U_id=log_message.admin_id  WHERE ( admin_id='1' )  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000270s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019105s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019243s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001308s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001449s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002436s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002594s ]
+
+[ 2016-03-23T15:09:26+08:00 ] 127.0.0.1 /index.php/Home/person/loglog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001539s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004816s ]
+SQL: SHOW COLUMNS FROM `log_message` [ RunTime:0.0339s ]
+SQL: SELECT * FROM `log_message` inner join admin_user ON admin_user.U_id=log_message.admin_id  WHERE ( admin_id='1' )  [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000261s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016751s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016885s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001385s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001501s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001540s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001665s ]
+
+[ 2016-03-23T15:09:35+08:00 ] 127.0.0.1 /index.php/Home/person/loglog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001799s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001983s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002161s ]
+SQL: SHOW COLUMNS FROM `log_message` [ RunTime:0.0316s ]
+SQL: SELECT * FROM `log_message` inner join admin_user ON admin_user.U_id=log_message.admin_id  WHERE ( admin_id='1' )  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000216s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000362s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017958s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018107s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001311s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001460s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001616s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001738s ]
+
+[ 2016-03-23T15:09:47+08:00 ] 127.0.0.1 /index.php/Home/person/loglog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005201s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005376s ]
+SQL: SHOW COLUMNS FROM `log_message` [ RunTime:0.0422s ]
+SQL: SELECT * FROM `log_message` inner join admin_user ON admin_user.U_id=log_message.admin_id  WHERE ( admin_id='1' )  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000287s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016950s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017097s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001369s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001503s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002234s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002448s ]
+
+[ 2016-03-23T15:09:56+08:00 ] 127.0.0.1 /index.php/Home/person/loglog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001463s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004844s ]
+SQL: SHOW COLUMNS FROM `log_message` [ RunTime:0.0300s ]
+SQL: SELECT * FROM `log_message` inner join admin_user ON admin_user.U_id=log_message.admin_id  WHERE ( admin_id='1' )  [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000262s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014648s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014786s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001305s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001471s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001885s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002018s ]
+
+[ 2016-03-23T15:11:35+08:00 ] 127.0.0.1 /index.php/Home/person/loglog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004585s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005724s ]
+SQL: SHOW COLUMNS FROM `log_message` [ RunTime:0.0365s ]
+SQL: SELECT * FROM `log_message` inner join admin_user ON admin_user.U_id=log_message.admin_id  WHERE ( admin_id='1' )  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000227s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016078s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016211s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001143s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001246s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001716s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001837s ]
+
+[ 2016-03-23T15:41:12+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001671s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001957s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002126s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000164s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000286s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.075384s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075539s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001743s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001857s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002833s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002979s ]
+
+[ 2016-03-23T15:41:14+08:00 ] 127.0.0.1 /index.php/Home/person/loglog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001638s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002315s ]
+SQL: SHOW COLUMNS FROM `log_message` [ RunTime:0.0404s ]
+SQL: SELECT * FROM `log_message` inner join admin_user ON admin_user.U_id=log_message.admin_id  WHERE ( admin_id='1' )  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000206s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000409s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024162s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024380s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001344s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001488s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002096s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002253s ]
+
+[ 2016-03-23T15:43:51+08:00 ] 127.0.0.1 /index.php/Home/person/loglog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002160s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002721s ]
+SQL: SHOW COLUMNS FROM `log_message` [ RunTime:0.0255s ]
+SQL: SELECT * FROM `log_message` inner join admin_user ON admin_user.U_id=log_message.admin_id  WHERE ( admin_id='1' )  [ RunTime:0.0031s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000277s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.516880s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.517077s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002322s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002466s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003088s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003243s ]
+
+[ 2016-03-23T15:45:27+08:00 ] 127.0.0.1 /index.php/Home/person/loglog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001520s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001952s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002126s ]
+SQL: SHOW COLUMNS FROM `log_message` [ RunTime:0.0350s ]
+SQL: SELECT * FROM `log_message` inner join admin_user ON admin_user.U_id=log_message.admin_id  WHERE ( admin_id='1' )  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000252s ]
+NOTIC: [2] Illegal string offset 'lo' C:\Users\Kvien Chen\Desktop\project\Northfloat\thinkphp\Application\Runtime\Cache\Home\ce0747f855bab768935bcd6ecd757815.php 第 43 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.096500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.096628s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001313s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001443s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003023s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003175s ]
+
+[ 2016-03-23T15:45:42+08:00 ] 127.0.0.1 /index.php/Home/person/loglog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001942s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001766s ]
+SQL: SHOW COLUMNS FROM `log_message` [ RunTime:0.0254s ]
+SQL: SELECT * FROM `log_message` inner join admin_user ON admin_user.U_id=log_message.admin_id  WHERE ( admin_id='1' )  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000229s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050319s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050459s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001179s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001264s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001310s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001406s ]
+
+[ 2016-03-23T15:46:25+08:00 ] 127.0.0.1 /index.php/Home/person/loglog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006096s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001962s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002147s ]
+SQL: SHOW COLUMNS FROM `log_message` [ RunTime:0.0248s ]
+SQL: SELECT * FROM `log_message` inner join admin_user ON admin_user.U_id=log_message.admin_id  WHERE ( admin_id='1' )  [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000275s ]
+NOTIC: [2] Illegal string offset 'var lo' C:\Users\Kvien Chen\Desktop\project\Northfloat\thinkphp\Application\Runtime\Cache\Home\ce0747f855bab768935bcd6ecd757815.php 第 43 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.428424s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.428572s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001754s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002021s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002192s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002339s ]
+
+[ 2016-03-23T15:46:53+08:00 ] 127.0.0.1 /index.php/Home/person/loglog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002006s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002182s ]
+SQL: SHOW COLUMNS FROM `log_message` [ RunTime:0.1081s ]
+SQL: SELECT * FROM `log_message` inner join admin_user ON admin_user.U_id=log_message.admin_id  WHERE ( admin_id='1' )  [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000265s ]
+NOTIC: [2] Illegal string offset '' C:\Users\Kvien Chen\Desktop\project\Northfloat\thinkphp\Application\Runtime\Cache\Home\ce0747f855bab768935bcd6ecd757815.php 第 43 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.099593s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.099721s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001490s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001623s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001859s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-03-23T15:47:03+08:00 ] 127.0.0.1 /index.php/Home/person/loglog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002199s ]
+SQL: SHOW COLUMNS FROM `log_message` [ RunTime:0.0426s ]
+SQL: SELECT * FROM `log_message` inner join admin_user ON admin_user.U_id=log_message.admin_id  WHERE ( admin_id='1' )  [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000270s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062947s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063105s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001222s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001326s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002434s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002559s ]
+
+[ 2016-03-23T15:47:19+08:00 ] 127.0.0.1 /index.php/Home/person/loglog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001555s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002098s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002292s ]
+SQL: SHOW COLUMNS FROM `log_message` [ RunTime:0.0398s ]
+SQL: SELECT * FROM `log_message` inner join admin_user ON admin_user.U_id=log_message.admin_id  WHERE ( admin_id='1' )  [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000280s ]
+NOTIC: [2] Illegal string offset 'var localAddress' C:\Users\Kvien Chen\Desktop\project\Northfloat\thinkphp\Application\Runtime\Cache\Home\ce0747f855bab768935bcd6ecd757815.php 第 43 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046471s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046595s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001291s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001397s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001456s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001572s ]
+
+[ 2016-03-23T15:48:39+08:00 ] 127.0.0.1 /index.php/Home/person/loglog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002632s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001886s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002040s ]
+SQL: SHOW COLUMNS FROM `log_message` [ RunTime:0.0437s ]
+SQL: SELECT * FROM `log_message` inner join admin_user ON admin_user.U_id=log_message.admin_id  WHERE ( admin_id='1' )  [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000214s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000341s ]
+NOTIC: [8] Use of undefined constant callback - assumed 'callback' C:\Users\Kvien Chen\Desktop\project\Northfloat\thinkphp\Application\Runtime\Cache\Home\ce0747f855bab768935bcd6ecd757815.php 第 43 行.
+NOTIC: [2] file_get_contents(``d`&quot;!#i): failed to open stream: Invalid argument C:\Users\Kvien Chen\Desktop\project\Northfloat\thinkphp\Application\Runtime\Cache\Home\ce0747f855bab768935bcd6ecd757815.php 第 43 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034133s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034266s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001271s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001365s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001432s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001520s ]
+
+[ 2016-03-23T15:48:52+08:00 ] 127.0.0.1 /index.php/Home/person/loglog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001132s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001686s ]
+SQL: SHOW COLUMNS FROM `log_message` [ RunTime:0.0401s ]
+SQL: SELECT * FROM `log_message` inner join admin_user ON admin_user.U_id=log_message.admin_id  WHERE ( admin_id='1' )  [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000263s ]
+NOTIC: [8] Use of undefined constant callback - assumed 'callback' C:\Users\Kvien Chen\Desktop\project\Northfloat\thinkphp\Application\Runtime\Cache\Home\ce0747f855bab768935bcd6ecd757815.php 第 43 行.
+NOTIC: [2] file_get_contents(``d`&quot;!#i): failed to open stream: Invalid argument C:\Users\Kvien Chen\Desktop\project\Northfloat\thinkphp\Application\Runtime\Cache\Home\ce0747f855bab768935bcd6ecd757815.php 第 43 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017946s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018072s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000953s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001052s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001253s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001338s ]
+
+[ 2016-03-23T15:49:05+08:00 ] 127.0.0.1 /index.php/Home/person/loglog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001716s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002684s ]
+SQL: SHOW COLUMNS FROM `log_message` [ RunTime:0.0428s ]
+SQL: SELECT * FROM `log_message` inner join admin_user ON admin_user.U_id=log_message.admin_id  WHERE ( admin_id='1' )  [ RunTime:0.0023s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000291s ]
+
+[ 2016-03-23T15:58:46+08:00 ] 127.0.0.1 /index.php/Home/person/loglog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002021s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002249s ]
+SQL: SHOW COLUMNS FROM `log_message` [ RunTime:0.1164s ]
+SQL: SELECT * FROM `log_message` inner join admin_user ON admin_user.U_id=log_message.admin_id  WHERE ( admin_id='1' )  [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000275s ]
+
+[ 2016-03-23T16:01:13+08:00 ] 127.0.0.1 /index.php/Home/person/loglog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002527s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006739s ]
+SQL: SHOW COLUMNS FROM `log_message` [ RunTime:0.0433s ]
+SQL: SELECT * FROM `log_message` inner join admin_user ON admin_user.U_id=log_message.admin_id  WHERE ( admin_id='1' )  [ RunTime:0.0095s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000270s ]
+
+[ 2016-03-23T16:02:02+08:00 ] 127.0.0.1 /index.php/Home/person/loglog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001776s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001914s ]
+SQL: SHOW COLUMNS FROM `log_message` [ RunTime:0.0450s ]
+SQL: SELECT * FROM `log_message` inner join admin_user ON admin_user.U_id=log_message.admin_id  WHERE ( admin_id='1' )  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000269s ]
+
+[ 2016-03-23T16:02:03+08:00 ] 127.0.0.1 /index.php/Home/person/loglog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001758s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001924s ]
+SQL: SHOW COLUMNS FROM `log_message` [ RunTime:0.0353s ]
+SQL: SELECT * FROM `log_message` inner join admin_user ON admin_user.U_id=log_message.admin_id  WHERE ( admin_id='1' )  [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000132s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000292s ]
+
+[ 2016-03-23T16:02:04+08:00 ] 127.0.0.1 /index.php/Home/person/loglog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001870s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001991s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002170s ]
+SQL: SHOW COLUMNS FROM `log_message` [ RunTime:0.0203s ]
+SQL: SELECT * FROM `log_message` inner join admin_user ON admin_user.U_id=log_message.admin_id  WHERE ( admin_id='1' )  [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000277s ]
+
+[ 2016-03-23T16:02:43+08:00 ] 127.0.0.1 /index.php/Home/person/loglog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001726s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002628s ]
+SQL: SHOW COLUMNS FROM `log_message` [ RunTime:0.0426s ]
+SQL: SELECT * FROM `log_message` inner join admin_user ON admin_user.U_id=log_message.admin_id  WHERE ( admin_id='1' )  [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000368s ]
+
+[ 2016-03-23T16:05:48+08:00 ] 127.0.0.1 /index.php/Home/person/loglog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001399s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001798s ]
+SQL: SHOW COLUMNS FROM `log_message` [ RunTime:0.0452s ]
+SQL: SELECT * FROM `log_message` inner join admin_user ON admin_user.U_id=log_message.admin_id  WHERE ( admin_id='1' )  [ RunTime:0.0023s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000264s ]
+
+[ 2016-03-23T16:08:00+08:00 ] 127.0.0.1 /index.php/Home/person/loglog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001772s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003225s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003404s ]
+SQL: SHOW COLUMNS FROM `log_message` [ RunTime:0.0970s ]
+SQL: SELECT * FROM `log_message` inner join admin_user ON admin_user.U_id=log_message.admin_id  WHERE ( admin_id='1' )  [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000272s ]
+
+[ 2016-03-23T16:08:57+08:00 ] 127.0.0.1 /index.php/Home/person/loglog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001510s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002537s ]
+SQL: SHOW COLUMNS FROM `log_message` [ RunTime:0.0506s ]
+SQL: SELECT * FROM `log_message` inner join admin_user ON admin_user.U_id=log_message.admin_id  WHERE ( admin_id='1' )  [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000243s ]
+
+[ 2016-03-23T16:09:23+08:00 ] 127.0.0.1 /index.php/Home/person/loglog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002084s ]
+SQL: SHOW COLUMNS FROM `log_message` [ RunTime:0.0426s ]
+SQL: SELECT * FROM `log_message` inner join admin_user ON admin_user.U_id=log_message.admin_id  WHERE ( admin_id='1' )  [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000215s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000354s ]
+
+[ 2016-03-23T16:13:16+08:00 ] 127.0.0.1 /index.php/Home/person/loglog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001578s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001880s ]
+SQL: SHOW COLUMNS FROM `log_message` [ RunTime:0.1398s ]
+SQL: SELECT * FROM `log_message` inner join admin_user ON admin_user.U_id=log_message.admin_id  WHERE ( admin_id='1' )  [ RunTime:0.0044s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000324s ]
+
+[ 2016-03-23T16:14:12+08:00 ] 127.0.0.1 /index.php/Home/person/loglog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001840s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002112s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002372s ]
+SQL: SHOW COLUMNS FROM `log_message` [ RunTime:0.0440s ]
+SQL: SELECT * FROM `log_message` inner join admin_user ON admin_user.U_id=log_message.admin_id  WHERE ( admin_id='1' )  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000288s ]
+
+[ 2016-03-23T16:14:23+08:00 ] 127.0.0.1 /index.php/Home/person/loglog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001529s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001675s ]
+SQL: SHOW COLUMNS FROM `log_message` [ RunTime:0.0428s ]
+SQL: SELECT * FROM `log_message` inner join admin_user ON admin_user.U_id=log_message.admin_id  WHERE ( admin_id='1' )  [ RunTime:0.0028s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000191s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000394s ]
+
+[ 2016-03-23T16:16:35+08:00 ] 127.0.0.1 /index.php/Home/person/loglog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002113s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002239s ]
+SQL: SHOW COLUMNS FROM `log_message` [ RunTime:0.0451s ]
+SQL: SELECT * FROM `log_message` inner join admin_user ON admin_user.U_id=log_message.admin_id  WHERE ( admin_id='1' )  [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000274s ]
+
+[ 2016-03-23T16:17:20+08:00 ] 127.0.0.1 /index.php/Home/person/loglog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001676s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004773s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005244s ]
+SQL: SHOW COLUMNS FROM `log_message` [ RunTime:0.0201s ]
+SQL: SELECT * FROM `log_message` inner join admin_user ON admin_user.U_id=log_message.admin_id  WHERE ( admin_id='1' )  [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000282s ]
+
+[ 2016-03-23T16:17:56+08:00 ] 127.0.0.1 /index.php/Home/person/loglog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002830s ]
+SQL: SHOW COLUMNS FROM `log_message` [ RunTime:0.0233s ]
+SQL: SELECT * FROM `log_message` inner join admin_user ON admin_user.U_id=log_message.admin_id  WHERE ( admin_id='1' )  [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000278s ]
+
+[ 2016-03-23T16:18:36+08:00 ] 127.0.0.1 /index.php/Home/person/loglog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001496s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004873s ]
+SQL: SHOW COLUMNS FROM `log_message` [ RunTime:0.0439s ]
+SQL: SELECT * FROM `log_message` inner join admin_user ON admin_user.U_id=log_message.admin_id  WHERE ( admin_id='1' )  [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000263s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019125s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019279s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001382s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001502s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001960s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002087s ]
+
+[ 2016-03-23T16:18:53+08:00 ] 127.0.0.1 /index.php/Home/person/loglog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001612s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004010s ]
+SQL: SHOW COLUMNS FROM `log_message` [ RunTime:0.0444s ]
+SQL: SELECT * FROM `log_message` inner join admin_user ON admin_user.U_id=log_message.admin_id  WHERE ( admin_id='1' )  [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000228s ]
+
+[ 2016-03-23T16:19:09+08:00 ] 127.0.0.1 /index.php/Home/person/loglog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001770s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002599s ]
+SQL: SHOW COLUMNS FROM `log_message` [ RunTime:0.0479s ]
+SQL: SELECT * FROM `log_message` inner join admin_user ON admin_user.U_id=log_message.admin_id  WHERE ( admin_id='1' )  [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000263s ]
+NOTIC: [2] file_get_contents() expects at least 1 parameter, 0 given C:\Users\Kvien Chen\Desktop\project\Northfloat\thinkphp\Application\Runtime\Cache\Home\ce0747f855bab768935bcd6ecd757815.php 第 44 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017432s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017577s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001344s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001487s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002366s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002516s ]
+
+[ 2016-03-23T16:19:23+08:00 ] 127.0.0.1 /index.php/Home/person/loglog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002200s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003702s ]
+SQL: SHOW COLUMNS FROM `log_message` [ RunTime:0.0389s ]
+SQL: SELECT * FROM `log_message` inner join admin_user ON admin_user.U_id=log_message.admin_id  WHERE ( admin_id='1' )  [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000233s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.082695s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.082972s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001433s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001576s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002366s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002517s ]
+
+[ 2016-03-23T16:19:47+08:00 ] 127.0.0.1 /index.php/Home/person/loglog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001742s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004262s ]
+SQL: SHOW COLUMNS FROM `log_message` [ RunTime:0.1010s ]
+SQL: SELECT * FROM `log_message` inner join admin_user ON admin_user.U_id=log_message.admin_id  WHERE ( admin_id='1' )  [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000265s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049533s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049676s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001213s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001324s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001702s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001817s ]
+
+[ 2016-03-23T16:21:43+08:00 ] 127.0.0.1 /index.php/Home/person/loglog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001760s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002007s ]
+SQL: SHOW COLUMNS FROM `log_message` [ RunTime:0.0433s ]
+SQL: SELECT * FROM `log_message` inner join admin_user ON admin_user.U_id=log_message.admin_id  WHERE ( admin_id='1' )  [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000231s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058121s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058291s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001651s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001797s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002247s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002389s ]
+
+[ 2016-03-23T16:22:03+08:00 ] 127.0.0.1 /index.php/Home/person/loglog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001644s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001423s ]
+SQL: SHOW COLUMNS FROM `log_message` [ RunTime:0.0201s ]
+SQL: SELECT * FROM `log_message` inner join admin_user ON admin_user.U_id=log_message.admin_id  WHERE ( admin_id='1' )  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000243s ]
+NOTIC: [2] file_get_contents(http://apis.baidu.com/apistore/iplookupservice/iplookup?ip=192.168.1.111 -H apikey:'9d22c30d35506605e4d66a07d1cfc353'): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ C:\Users\Kvien Chen\Desktop\project\Northfloat\thinkphp\Application\Runtime\Cache\Home\ce0747f855bab768935bcd6ecd757815.php 第 44 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.090575s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.091012s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001508s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001692s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002258s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002391s ]
+
+[ 2016-03-23T16:22:37+08:00 ] 127.0.0.1 /index.php/Home/person/loglog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001654s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001810s ]
+SQL: SHOW COLUMNS FROM `log_message` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `log_message` inner join admin_user ON admin_user.U_id=log_message.admin_id  WHERE ( admin_id='1' )  [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000259s ]
+NOTIC: [2] file_get_contents(http://apis.baidu.com/apistore/iplookupservice/iplookup?ip=192.168.1.111 -H 'apikey:9d22c30d35506605e4d66a07d1cfc353'): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ C:\Users\Kvien Chen\Desktop\project\Northfloat\thinkphp\Application\Runtime\Cache\Home\ce0747f855bab768935bcd6ecd757815.php 第 44 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054081s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054197s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001195s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001310s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001292s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001401s ]
+
+[ 2016-03-23T16:33:21+08:00 ] 127.0.0.1 /index.php/Home/person/loglog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001570s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002102s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002293s ]
+SQL: SHOW COLUMNS FROM `log_message` [ RunTime:0.0202s ]
+SQL: SELECT * FROM `log_message` inner join admin_user ON admin_user.U_id=log_message.admin_id  WHERE ( admin_id='1' )  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000250s ]
+
+[ 2016-03-23T16:33:38+08:00 ] 127.0.0.1 /index.php/Home/person/loglog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002119s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001922s ]
+SQL: SHOW COLUMNS FROM `log_message` [ RunTime:0.0547s ]
+SQL: SELECT * FROM `log_message` inner join admin_user ON admin_user.U_id=log_message.admin_id  WHERE ( admin_id='1' )  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000159s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000323s ]
+
+[ 2016-03-23T16:35:40+08:00 ] 127.0.0.1 /index.php/Home/person/loglog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004176s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002681s ]
+SQL: SHOW COLUMNS FROM `log_message` [ RunTime:0.0280s ]
+SQL: SELECT * FROM `log_message` inner join admin_user ON admin_user.U_id=log_message.admin_id  WHERE ( admin_id='1' )  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000226s ]
+
+[ 2016-03-23T16:35:48+08:00 ] 127.0.0.1 /index.php/Home/person/loglog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002006s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001852s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002013s ]
+SQL: SHOW COLUMNS FROM `log_message` [ RunTime:0.0397s ]
+SQL: SELECT * FROM `log_message` inner join admin_user ON admin_user.U_id=log_message.admin_id  WHERE ( admin_id='1' )  [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000269s ]
+
+[ 2016-03-23T16:45:25+08:00 ] 127.0.0.1 /index.php/Home/person/loglog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001799s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001602s ]
+SQL: SHOW COLUMNS FROM `log_message` [ RunTime:0.0687s ]
+SQL: SELECT * FROM `log_message` inner join admin_user ON admin_user.U_id=log_message.admin_id  WHERE ( admin_id='1' )  [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000261s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044120s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044242s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001305s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001419s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002227s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002338s ]
+
+[ 2016-03-23T16:45:31+08:00 ] 127.0.0.1 /index.php/Home/person/pwdchange.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000147s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003462s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002995s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002732s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002901s ]
+
+[ 2016-03-23T19:25:40+08:00 ] 127.0.0.1 /index.php/Home/person/loglog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001973s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003999s ]
+NOTIC: [8] Undefined index: Uid C:\Users\Kvien Chen\Desktop\project\Northfloat\thinkphp\Application\Home\Controller\PersonController.class.php 第 17 行.
+
+[ 2016-03-23T19:25:40+08:00 ] 127.0.0.1 /index.php/Home/Index/phone.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001185s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001855s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000176s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000417s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.077592s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077905s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001291s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001409s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001719s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001834s ]
+
+[ 2016-03-23T19:25:41+08:00 ] 127.0.0.1 /index.php/Home/Css/bootstrap.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001599s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001934s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002094s ]
+ERR: 无法加载控制器:Css
+
+[ 2016-03-23T19:25:41+08:00 ] 127.0.0.1 /index.php/Home/Js/ckform.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001465s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001862s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-03-23T19:25:41+08:00 ] 127.0.0.1 /index.php/Home/Js/common.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002878s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003918s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-03-23T19:25:41+08:00 ] 127.0.0.1 /index.php/Home/Js/bootstrap.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000135s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002429s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001940s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002116s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-03-23T19:25:42+08:00 ] 127.0.0.1 /index.php/Home/Js/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001900s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001943s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002130s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-03-23T19:25:42+08:00 ] 127.0.0.1 /index.php/Home/Js/jquery.sorted.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001804s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003573s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-03-23T19:25:42+08:00 ] 127.0.0.1 /index.php/Home/Js/bootstrap.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001231s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002763s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-03-23T19:25:42+08:00 ] 127.0.0.1 /index.php/Home/Css/bootstrap-responsive.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000101s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005534s ]
+ERR: 无法加载控制器:Css
+
+[ 2016-03-23T19:25:42+08:00 ] 127.0.0.1 /index.php/Home/Js/ckform.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002922s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-03-23T19:25:42+08:00 ] 127.0.0.1 /index.php/Home/Css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002141s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001822s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001989s ]
+ERR: 无法加载控制器:Css
+
+[ 2016-03-23T19:25:42+08:00 ] 127.0.0.1 /index.php/Home/Js/common.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002849s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003026s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-03-23T19:35:48+08:00 ] 127.0.0.1 /index.php/Home/person/loglog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001941s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005284s ]
+NOTIC: [8] Undefined index: Uid C:\Users\Kvien Chen\Desktop\project\Northfloat\thinkphp\Application\Home\Controller\PersonController.class.php 第 17 行.
+
+[ 2016-03-23T19:35:49+08:00 ] 127.0.0.1 /index.php/Home/Index/phone.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001864s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001942s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000241s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055646s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055825s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001794s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002093s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002015s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002259s ]
+
+[ 2016-03-23T19:35:49+08:00 ] 127.0.0.1 /index.php/Home/Css/bootstrap.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001773s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002130s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002491s ]
+ERR: 无法加载控制器:Css
+
+[ 2016-03-23T19:35:49+08:00 ] 127.0.0.1 /index.php/Home/Js/ckform.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001684s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008715s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-03-23T19:35:49+08:00 ] 127.0.0.1 /index.php/Home/Js/common.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001502s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002111s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002282s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-03-23T19:35:50+08:00 ] 127.0.0.1 /index.php/Home/Js/jquery.sorted.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001557s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001846s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002016s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-03-23T19:35:50+08:00 ] 127.0.0.1 /index.php/Home/Css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001448s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005252s ]
+ERR: 无法加载控制器:Css
+
+[ 2016-03-23T19:35:50+08:00 ] 127.0.0.1 /index.php/Home/Css/bootstrap-responsive.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001621s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001880s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002060s ]
+ERR: 无法加载控制器:Css
+
+[ 2016-03-23T19:35:50+08:00 ] 127.0.0.1 /index.php/Home/Js/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002822s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-03-23T19:35:50+08:00 ] 127.0.0.1 /index.php/Home/Js/bootstrap.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003356s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003163s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-03-23T19:35:50+08:00 ] 127.0.0.1 /index.php/Home/Js/jquery.sorted.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002101s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002289s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-03-23T19:35:50+08:00 ] 127.0.0.1 /index.php/Home/Js/bootstrap.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001470s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001815s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002160s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-03-23T19:35:50+08:00 ] 127.0.0.1 /index.php/Home/Js/ckform.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002646s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-03-23T19:35:50+08:00 ] 127.0.0.1 /index.php/Home/Js/common.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001741s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002127s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-03-23T19:44:10+08:00 ] 127.0.0.1 /index.php/Home/person/loglog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002121s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002286s ]
+NOTIC: [8] Undefined index: Uid C:\Users\Kvien Chen\Desktop\project\Northfloat\thinkphp\Application\Home\Controller\PersonController.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000189s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000335s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062329s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062519s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001347s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001460s ]
+
+[ 2016-03-23T19:45:02+08:00 ] 127.0.0.1 /index.php/Home/person/loglog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006387s ]
+
+[ 2016-03-23T19:45:14+08:00 ] 127.0.0.1 /index.php/Home/person/loglog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001634s ]
+NOTIC: [8] Undefined index: Uid C:\Users\Kvien Chen\Desktop\project\Northfloat\thinkphp\Application\Home\Controller\PersonController.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000206s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015262s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015386s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003635s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003748s ]
+
+[ 2016-03-23T19:45:20+08:00 ] 127.0.0.1 /index.php/Home/index/phone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001450s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001870s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000217s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019609s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019754s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001056s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001162s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001724s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001838s ]
+
+[ 2016-03-23T19:45:21+08:00 ] 127.0.0.1 /index.php/Home/Css/bootstrap.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001838s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001972s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002150s ]
+ERR: 无法加载控制器:Css
+
+[ 2016-03-23T19:45:21+08:00 ] 127.0.0.1 /index.php/Home/Js/ckform.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001760s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004265s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-03-23T19:45:21+08:00 ] 127.0.0.1 /index.php/Home/Js/common.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004772s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-03-23T19:45:22+08:00 ] 127.0.0.1 /index.php/Home/Css/bootstrap-responsive.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001715s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004811s ]
+ERR: 无法加载控制器:Css
+
+[ 2016-03-23T19:45:23+08:00 ] 127.0.0.1 /index.php/Home/Js/jquery.sorted.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005395s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003109s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003320s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-03-23T19:45:23+08:00 ] 127.0.0.1 /index.php/Home/Js/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002644s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005168s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005344s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-03-23T19:45:23+08:00 ] 127.0.0.1 /index.php/Home/Css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000241s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002124s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.025193s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.025345s ]
+ERR: 无法加载控制器:Css
+
+[ 2016-03-23T19:45:23+08:00 ] 127.0.0.1 /index.php/Home/Js/bootstrap.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013630s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-03-23T19:45:23+08:00 ] 127.0.0.1 /index.php/Home/Js/jquery.sorted.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002735s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004864s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005047s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-03-23T19:45:23+08:00 ] 127.0.0.1 /index.php/Home/Js/bootstrap.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003670s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001984s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002136s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-03-23T19:45:23+08:00 ] 127.0.0.1 /index.php/Home/Js/ckform.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002591s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003918s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004175s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-03-23T19:45:23+08:00 ] 127.0.0.1 /index.php/Home/Js/common.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001704s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002771s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002953s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-03-23T19:47:33+08:00 ] 127.0.0.1 /index.php/Home/person/loglog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001735s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003004s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003316s ]
+NOTIC: [8] Undefined index: Uid C:\Users\Kvien Chen\Desktop\project\Northfloat\thinkphp\Application\Home\Controller\PersonController.class.php 第 17 行.
+
+[ 2016-03-23T19:47:33+08:00 ] 127.0.0.1 /index.php/Home/Person/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001616s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002225s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002534s ]
+
+[ 2016-03-23T19:58:30+08:00 ] 127.0.0.1 /index.php/Home/person/pwdchange.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002133s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002332s ]
+NOTIC: [8] Undefined index: Uid C:\Users\Kvien Chen\Desktop\project\Northfloat\thinkphp\Application\Home\Controller\PersonController.class.php 第 32 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000242s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052188s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052332s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001326s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001450s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001746s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001869s ]
+
+[ 2016-03-23T19:58:37+08:00 ] 127.0.0.1 /index.php/Home/person/pwdchange.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000138s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004595s ]
+NOTIC: [8] Undefined index: Uid C:\Users\Kvien Chen\Desktop\project\Northfloat\thinkphp\Application\Home\Controller\PersonController.class.php 第 32 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000138s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000341s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.116828s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.116996s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010679s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010852s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004915s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005076s ]
+
+[ 2016-03-23T19:59:21+08:00 ] 127.0.0.1 /index.php/Home/person/pwdchange.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001487s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002677s ]
+NOTIC: [8] Undefined index: Uid C:\Users\Kvien Chen\Desktop\project\Northfloat\thinkphp\Application\Home\Controller\PersonController.class.php 第 32 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000158s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000319s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021853s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022115s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001555s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001799s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006060s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006372s ]
+
+[ 2016-03-23T20:00:16+08:00 ] 127.0.0.1 /index.php/Home/person/pwdchange.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001609s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002724s ]
+NOTIC: [8] Undefined index: Uid C:\Users\Kvien Chen\Desktop\project\Northfloat\thinkphp\Application\Home\Controller\PersonController.class.php 第 32 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000295s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000508s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041884s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042166s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001485s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001632s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002160s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002316s ]
+
+[ 2016-03-23T20:00:30+08:00 ] 127.0.0.1 /index.php/Home/person/pwdchange.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003185s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003373s ]
+NOTIC: [8] Undefined index: Uid C:\Users\Kvien Chen\Desktop\project\Northfloat\thinkphp\Application\Home\Controller\PersonController.class.php 第 32 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000287s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023127s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023293s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001256s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001379s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001649s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001786s ]
+
+[ 2016-03-23T20:01:52+08:00 ] 127.0.0.1 /index.php/Home/person/pwdchange.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002486s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002249s ]
+NOTIC: [8] Undefined index: Uid C:\Users\Kvien Chen\Desktop\project\Northfloat\thinkphp\Application\Home\Controller\PersonController.class.php 第 32 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002917s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036130s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036298s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004048s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004195s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003171s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003325s ]
+
+[ 2016-03-23T20:07:48+08:00 ] 127.0.0.1 /index.php/Home/person/pwdchange.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001928s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002031s ]
+NOTIC: [8] Undefined index: Uid C:\Users\Kvien Chen\Desktop\project\Northfloat\thinkphp\Application\Home\Controller\PersonController.class.php 第 32 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000254s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062122s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062245s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001273s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001399s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002837s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003124s ]
+
+[ 2016-03-23T20:08:12+08:00 ] 127.0.0.1 /index.php/Home/person/pwdchange.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002133s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002306s ]
+NOTIC: [8] Undefined index: Uid C:\Users\Kvien Chen\Desktop\project\Northfloat\thinkphp\Application\Home\Controller\PersonController.class.php 第 32 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000254s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000415s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032628s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032807s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004126s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002102s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002263s ]
+
+[ 2016-03-23T20:08:30+08:00 ] 127.0.0.1 /index.php/Home/person/pwdchange.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002776s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001901s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002069s ]
+NOTIC: [8] Undefined index: Uid C:\Users\Kvien Chen\Desktop\project\Northfloat\thinkphp\Application\Home\Controller\PersonController.class.php 第 32 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000144s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000301s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020896s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021055s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001367s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001614s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001888s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002030s ]
+
+[ 2016-03-23T20:09:45+08:00 ] 127.0.0.1 /index.php/Home/person/pwdchange.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001678s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004242s ]
+NOTIC: [8] Undefined index: Uid C:\Users\Kvien Chen\Desktop\project\Northfloat\thinkphp\Application\Home\Controller\PersonController.class.php 第 32 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000158s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000315s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030255s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030423s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001270s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001395s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001566s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001690s ]
+
+[ 2016-03-23T20:11:24+08:00 ] 127.0.0.1 /index.php/Home/person/pwdchange.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001779s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001983s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002155s ]
+NOTIC: [8] Undefined index: Uid C:\Users\Kvien Chen\Desktop\project\Northfloat\thinkphp\Application\Home\Controller\PersonController.class.php 第 32 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000157s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000314s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043705s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044351s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001513s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001657s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004194s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004380s ]
+
+[ 2016-03-23T20:11:35+08:00 ] 127.0.0.1 /index.php/Home/person/Login.ashx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000098s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004981s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002780s ]
+ERR: 非法操作:Login.ashx
+
+[ 2016-03-23T20:12:39+08:00 ] 127.0.0.1 /index.php/Home/person/pwdchange.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001828s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002142s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002321s ]
+NOTIC: [8] Undefined index: Uid C:\Users\Kvien Chen\Desktop\project\Northfloat\thinkphp\Application\Home\Controller\PersonController.class.php 第 32 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000157s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000351s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033046s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033214s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001284s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001421s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001946s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002176s ]
+
+[ 2016-03-23T20:13:14+08:00 ] 127.0.0.1 /index.php/Home/person/pwdchange.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001505s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001984s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002154s ]
+NOTIC: [8] Undefined index: Uid C:\Users\Kvien Chen\Desktop\project\Northfloat\thinkphp\Application\Home\Controller\PersonController.class.php 第 32 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000326s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026608s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026769s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004795s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004945s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005434s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005655s ]
+
+[ 2016-03-23T20:13:30+08:00 ] 127.0.0.1 /index.php/Home/person/pwdchange.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001781s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002873s ]
+NOTIC: [8] Undefined index: Uid C:\Users\Kvien Chen\Desktop\project\Northfloat\thinkphp\Application\Home\Controller\PersonController.class.php 第 32 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000309s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029342s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029608s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002702s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002854s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002091s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002272s ]
+
+[ 2016-03-23T20:15:00+08:00 ] 127.0.0.1 /index.php/Home/person/pwdchange.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001272s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004650s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002979s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003204s ]
+NOTIC: [8] Undefined index: Uid C:\Users\Kvien Chen\Desktop\project\Northfloat\thinkphp\Application\Home\Controller\PersonController.class.php 第 32 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000201s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000765s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025021s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025311s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001488s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001632s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004859s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005009s ]
+
+[ 2016-03-23T21:26:53+08:00 ] 127.0.0.1 /index.php/Home/person/pwdchange.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002656s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004188s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.006241s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.006421s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.142320s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.142541s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008146s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.027683s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009840s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010015s ]
+
+[ 2016-03-23T21:26:56+08:00 ] 127.0.0.1 /index.php/Home/Person/handle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002203s ]
+NOTIC: [8] Undefined index: Uid C:\Users\Kvien Chen\Desktop\project\Northfloat\thinkphp\Application\Home\Controller\PersonController.class.php 第 51 行.
+NOTIC: [8] Undefined index: code C:\Users\Kvien Chen\Desktop\project\Northfloat\thinkphp\Application\Home\Controller\PersonController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0321s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where u_id='' set u_pwd=d41d8cd98f00b204e9800998ecf8427e' at line 1
+ [ SQL语句 ] : update admin_user where u_id='' set u_pwd=d41d8cd98f00b204e9800998ecf8427e
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where u_id='' set u_pwd=d41d8cd98f00b204e9800998ecf8427e' at line 1
+ [ SQL语句 ] : update admin_user where u_id='' set u_pwd=d41d8cd98f00b204e9800998ecf8427e
+
+[ 2016-03-23T21:28:23+08:00 ] 127.0.0.1 /index.php/Home/person/pwdchange.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003839s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004249s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004511s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000239s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033724s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033893s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001908s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002117s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001984s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002250s ]
+
+[ 2016-03-23T21:28:25+08:00 ] 127.0.0.1 /index.php/Home/Person/handle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002382s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002169s ]
+NOTIC: [8] Undefined index: Uid C:\Users\Kvien Chen\Desktop\project\Northfloat\thinkphp\Application\Home\Controller\PersonController.class.php 第 51 行.
+NOTIC: [8] Undefined index: code C:\Users\Kvien Chen\Desktop\project\Northfloat\thinkphp\Application\Home\Controller\PersonController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0196s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where u_id='' set u_pwd=d41d8cd98f00b204e9800998ecf8427e' at line 1
+ [ SQL语句 ] : update admin_user where u_id='' set u_pwd=d41d8cd98f00b204e9800998ecf8427e
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where u_id='' set u_pwd=d41d8cd98f00b204e9800998ecf8427e' at line 1
+ [ SQL语句 ] : update admin_user where u_id='' set u_pwd=d41d8cd98f00b204e9800998ecf8427e
+
+[ 2016-03-23T21:28:41+08:00 ] 127.0.0.1 /index.php/Home/person/pwdchange.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001715s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001855s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000172s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000354s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039929s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040139s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004830s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005137s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002422s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002857s ]
+
+[ 2016-03-23T21:28:45+08:00 ] 127.0.0.1 /index.php/Home/Person/handle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001679s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004560s ]
+NOTIC: [8] Undefined index: Uid C:\Users\Kvien Chen\Desktop\project\Northfloat\thinkphp\Application\Home\Controller\PersonController.class.php 第 49 行.
+NOTIC: [8] Undefined index: code C:\Users\Kvien Chen\Desktop\project\Northfloat\thinkphp\Application\Home\Controller\PersonController.class.php 第 51 行.
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0370s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where u_id='' set u_pwd=d41d8cd98f00b204e9800998ecf8427e' at line 1
+ [ SQL语句 ] : update admin_user where u_id='' set u_pwd=d41d8cd98f00b204e9800998ecf8427e
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where u_id='' set u_pwd=d41d8cd98f00b204e9800998ecf8427e' at line 1
+ [ SQL语句 ] : update admin_user where u_id='' set u_pwd=d41d8cd98f00b204e9800998ecf8427e
+
+[ 2016-03-23T21:31:33+08:00 ] 127.0.0.1 /index.php/Home/person/pwdchange.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011556s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004770s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004959s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000306s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000527s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044401s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044687s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001482s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001607s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002551s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002793s ]
+
+[ 2016-03-23T21:31:40+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001692s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007936s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000179s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000331s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062987s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063149s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001251s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001394s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002110s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002241s ]
+
+[ 2016-03-23T21:31:49+08:00 ] 127.0.0.1 /index.php/Home/person/pwdchange.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001841s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001911s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002107s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000167s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000349s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027024s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027173s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.019327s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.019560s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004259s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005311s ]
+
+[ 2016-03-23T21:32:10+08:00 ] 127.0.0.1 /index.php/Home/Person/pwdchange.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002129s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001739s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001910s ]
+
+[ 2016-03-23T21:32:22+08:00 ] 127.0.0.1 /index.php/Home/Person/handle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002026s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008309s ]
+NOTIC: [8] Undefined index: Uid C:\Users\Kvien Chen\Desktop\project\Northfloat\thinkphp\Application\Home\Controller\PersonController.class.php 第 51 行.
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0999s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where u_id='' set u_pwd=81dc9bdb52d04dc20036dbd8313ed055' at line 1
+ [ SQL语句 ] : update admin_user where u_id='' set u_pwd=81dc9bdb52d04dc20036dbd8313ed055
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where u_id='' set u_pwd=81dc9bdb52d04dc20036dbd8313ed055' at line 1
+ [ SQL语句 ] : update admin_user where u_id='' set u_pwd=81dc9bdb52d04dc20036dbd8313ed055
+
+[ 2016-03-23T21:39:48+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001714s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001885s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000155s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000276s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.082941s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.083102s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001542s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001650s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001720s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001891s ]
+
+[ 2016-03-23T21:39:53+08:00 ] 127.0.0.1 /index.php/Home/person/pwdchange.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000218s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002135s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002172s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002356s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000184s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000407s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060423s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060607s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006631s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006783s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002151s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002301s ]
+
+[ 2016-03-23T21:40:48+08:00 ] 127.0.0.1 /index.php/Home/person/pwdchange.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002747s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000184s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000375s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.142890s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.143059s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.027118s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.027618s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004315s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004534s ]
+
+[ 2016-03-23T21:41:02+08:00 ] 127.0.0.1 /index.php/Home/Person/pwdchange
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000170s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017178s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002479s ]
+
+[ 2016-03-23T21:41:14+08:00 ] 127.0.0.1 /index.php/Home/Person/handle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001930s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015232s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015421s ]
+NOTIC: [8] Undefined index: Uid C:\Users\Kvien Chen\Desktop\project\Northfloat\thinkphp\Application\Home\Controller\PersonController.class.php 第 51 行.
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0791s ]
+
+[ 2016-03-23T21:45:35+08:00 ] 127.0.0.1 /index.php/Home/person/pwdchange.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002116s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011161s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000199s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000389s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.179922s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.180103s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002418s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002550s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.038648s ]
+INFO: [ app_end ] --END-- [ RunTime:0.038798s ]
+
+[ 2016-03-23T21:45:50+08:00 ] 127.0.0.1 /index.php/Home/Person/pwdchange
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001477s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001613s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000280s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023763s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023999s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001530s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001812s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006028s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006183s ]
+
+[ 2016-03-23T21:46:49+08:00 ] 127.0.0.1 /index.php/Home/person/pwdchange.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001420s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008816s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000511s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000890s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.160752s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.160973s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001649s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001899s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004831s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004984s ]
+
+[ 2016-03-23T21:46:59+08:00 ] 127.0.0.1 /index.php/Home/Person/pwdchange
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002367s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000180s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000323s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046997s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047154s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001405s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001556s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001617s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001753s ]
+
+[ 2016-03-23T21:48:11+08:00 ] 127.0.0.1 /index.php/Home/person/pwdchange.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000128s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002168s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001780s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001929s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000181s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000342s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.071130s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071360s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001979s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004630s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002468s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002632s ]
+
+[ 2016-03-23T21:48:17+08:00 ] 127.0.0.1 /index.php/Home/Person/pwdchange
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001362s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002762s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002947s ]
+
+[ 2016-03-23T21:48:54+08:00 ] 127.0.0.1 /index.php/Home/person/pwdchange.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001786s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002525s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001616s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.218050s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.218381s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.013412s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013639s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.020826s ]
+INFO: [ app_end ] --END-- [ RunTime:0.020986s ]
+
+[ 2016-03-23T21:49:08+08:00 ] 127.0.0.1 /index.php/Home/Person/pwdchange
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002209s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002931s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003126s ]
+
+[ 2016-03-23T21:49:35+08:00 ] 127.0.0.1 /index.php/Home/person/pwdchange.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001830s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002754s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000196s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000396s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030760s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030939s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010032s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010476s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003472s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003691s ]
+
+[ 2016-03-23T21:49:44+08:00 ] 127.0.0.1 /index.php/Home/Person/pwdchange
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004414s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008321s ]
+
+[ 2016-03-23T21:49:53+08:00 ] 127.0.0.1 /index.php/Home/Person/handle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003286s ]
+NOTIC: [8] Undefined index: Uid C:\Users\Kvien Chen\Desktop\project\Northfloat\thinkphp\Application\Home\Controller\PersonController.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0465s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where u_id='' set u_pwd=698d51a19d8a121ce581499d7b701668' at line 1
+ [ SQL语句 ] : update admin_user where u_id='' set u_pwd=698d51a19d8a121ce581499d7b701668
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where u_id='' set u_pwd=698d51a19d8a121ce581499d7b701668' at line 1
+ [ SQL语句 ] : update admin_user where u_id='' set u_pwd=698d51a19d8a121ce581499d7b701668
+
+[ 2016-03-23T21:49:57+08:00 ] 127.0.0.1 /index.php/Home/Person/handle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001816s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002617s ]
+NOTIC: [8] Undefined index: Uid C:\Users\Kvien Chen\Desktop\project\Northfloat\thinkphp\Application\Home\Controller\PersonController.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0491s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where u_id='' set u_pwd=698d51a19d8a121ce581499d7b701668' at line 1
+ [ SQL语句 ] : update admin_user where u_id='' set u_pwd=698d51a19d8a121ce581499d7b701668
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where u_id='' set u_pwd=698d51a19d8a121ce581499d7b701668' at line 1
+ [ SQL语句 ] : update admin_user where u_id='' set u_pwd=698d51a19d8a121ce581499d7b701668
+
+[ 2016-03-23T21:49:58+08:00 ] 127.0.0.1 /index.php/Home/Person/handle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002833s ]
+NOTIC: [8] Undefined index: Uid C:\Users\Kvien Chen\Desktop\project\Northfloat\thinkphp\Application\Home\Controller\PersonController.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0454s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where u_id='' set u_pwd=698d51a19d8a121ce581499d7b701668' at line 1
+ [ SQL语句 ] : update admin_user where u_id='' set u_pwd=698d51a19d8a121ce581499d7b701668
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where u_id='' set u_pwd=698d51a19d8a121ce581499d7b701668' at line 1
+ [ SQL语句 ] : update admin_user where u_id='' set u_pwd=698d51a19d8a121ce581499d7b701668
+
+[ 2016-03-23T21:49:58+08:00 ] 127.0.0.1 /index.php/Home/Person/handle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004220s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003174s ]
+NOTIC: [8] Undefined index: Uid C:\Users\Kvien Chen\Desktop\project\Northfloat\thinkphp\Application\Home\Controller\PersonController.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0359s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where u_id='' set u_pwd=698d51a19d8a121ce581499d7b701668' at line 1
+ [ SQL语句 ] : update admin_user where u_id='' set u_pwd=698d51a19d8a121ce581499d7b701668
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where u_id='' set u_pwd=698d51a19d8a121ce581499d7b701668' at line 1
+ [ SQL语句 ] : update admin_user where u_id='' set u_pwd=698d51a19d8a121ce581499d7b701668
+
+[ 2016-03-23T21:49:59+08:00 ] 127.0.0.1 /index.php/Home/Person/handle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001570s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003195s ]
+NOTIC: [8] Undefined index: Uid C:\Users\Kvien Chen\Desktop\project\Northfloat\thinkphp\Application\Home\Controller\PersonController.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0465s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where u_id='' set u_pwd=698d51a19d8a121ce581499d7b701668' at line 1
+ [ SQL语句 ] : update admin_user where u_id='' set u_pwd=698d51a19d8a121ce581499d7b701668
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where u_id='' set u_pwd=698d51a19d8a121ce581499d7b701668' at line 1
+ [ SQL语句 ] : update admin_user where u_id='' set u_pwd=698d51a19d8a121ce581499d7b701668
+
+[ 2016-03-23T21:49:59+08:00 ] 127.0.0.1 /index.php/Home/Person/handle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002110s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002874s ]
+NOTIC: [8] Undefined index: Uid C:\Users\Kvien Chen\Desktop\project\Northfloat\thinkphp\Application\Home\Controller\PersonController.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0521s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where u_id='' set u_pwd=698d51a19d8a121ce581499d7b701668' at line 1
+ [ SQL语句 ] : update admin_user where u_id='' set u_pwd=698d51a19d8a121ce581499d7b701668
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where u_id='' set u_pwd=698d51a19d8a121ce581499d7b701668' at line 1
+ [ SQL语句 ] : update admin_user where u_id='' set u_pwd=698d51a19d8a121ce581499d7b701668
+
+[ 2016-03-23T21:49:59+08:00 ] 127.0.0.1 /index.php/Home/Person/handle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001485s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003167s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003358s ]
+NOTIC: [8] Undefined index: Uid C:\Users\Kvien Chen\Desktop\project\Northfloat\thinkphp\Application\Home\Controller\PersonController.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0388s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where u_id='' set u_pwd=698d51a19d8a121ce581499d7b701668' at line 1
+ [ SQL语句 ] : update admin_user where u_id='' set u_pwd=698d51a19d8a121ce581499d7b701668
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where u_id='' set u_pwd=698d51a19d8a121ce581499d7b701668' at line 1
+ [ SQL语句 ] : update admin_user where u_id='' set u_pwd=698d51a19d8a121ce581499d7b701668
+
